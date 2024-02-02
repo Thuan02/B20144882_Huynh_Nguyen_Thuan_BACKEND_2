@@ -10,10 +10,10 @@ exports.findOne = (req, res) => {
 exports.update = (req, res) => {
     res.send({message: "update handler"});
 };
-exports.detele = (req, res) => {
+exports.delete = (req, res) => {
     res.send({message: "delete handler"});
 };
-exports.deteleAll = (req, res) => {
+exports.deleteAll = (req, res) => {
     res.send({message: "deleteAll handler"});
 };
 exports.findAllFavorite = (req, res) => {
